@@ -1,1 +1,1 @@
-https://github.com/Temix3/slozhnososredotochitsya/
+https://github.com/Temix3/slozhno-sosredotochitsya/
