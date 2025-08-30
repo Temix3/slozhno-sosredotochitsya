@@ -252,11 +252,10 @@
 
 .section__gallery {
   width: 100%;
-  max-height: 102.1vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.81fr 1fr 1fr 0.29fr;
-  gap: 20px 20px;
+  grid-template-rows: auto auto auto auto; 
+  gap: 20px;
   grid-template-areas:
     "Image1 Image1 Image2"
     "Image3 Image5 Image2"
@@ -447,18 +446,16 @@
     gap: 10px;
   }
 
-  .section__gallery {
-    width: 100%;
-    min-height: 364.2vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr;
-    gap: 10px 10px;
-    grid-template-areas:
-      "Image1"
-      "Image2"
-      "Image3"
-      "Image5"
-      "Image4";
-  }
+ .section__gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto; 
+  gap: 10px 10px;
+  grid-template-areas:
+    "Image1"
+    "Image2"
+    "Image3"
+    "Image5"
+    "Image4";
 }
