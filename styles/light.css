@@ -1,6 +1,6 @@
 .page.theme_light {
   --accentColor: #ff8dcb;
-  --accentColorOpaque: rgba(53, 52, 48, 0.4);
+  --accent-color-opacity: rgba(53, 52, 48, 0.4);
   --backgroundColor: #fff1f7;
   --titleColor: #ffc2e6;
   --subtitleColor: #353430;
@@ -13,7 +13,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accentColor: #ff8dcb;
-    --accentColorOpaque: rgba(53, 52, 48, 0.4);
+    --accent-color-opacity: rgba(53, 52, 48, 0.4);
     --backgroundColor: #fff1f7;
     --titleColor: #ffc2e6;
     --subtitleColor: #353430;
