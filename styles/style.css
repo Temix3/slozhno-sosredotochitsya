@@ -177,7 +177,7 @@
   justify-content: space-between;
 }
 
-.section-desktop-horizontal-type {
+.section--featured {
   flex-direction: column;
 }
 
@@ -210,7 +210,7 @@
   flex-direction: column;
 }
 
-.section-desktop-horizontal-type .section__content {
+.section--featured .section__content {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -226,7 +226,7 @@
   width: 63.38vw;
 }
 
-.section-desktop-horizontal-type .section__element {
+.section--featured .section__element {
   width: 30.76vw;
 }
 
@@ -343,7 +343,7 @@
     width: 61.46vw;
   }
 
-  .section-desktop-horizontal-type .section__content {
+  .section--featured .section__content {
     flex-direction: column;
   }
 
@@ -351,7 +351,7 @@
     width: 61.46vw;
   }
 
-  .section-desktop-horizontal-type .section__element {
+  .section--featured .section__element {
     width: 100%;
   }
 }
@@ -422,7 +422,7 @@
     flex-direction: column;
   }
 
-  .section-desktop-horizontal-type .section__content {
+  .section--featured .section__content {
     flex-direction: column;
   }
 
@@ -430,7 +430,7 @@
     width: 100%;
   }
 
-  .section-desktop-horizontal-type .section__title {
+  .section--featured .section__title {
     width: 100%;
   }
 
@@ -438,7 +438,7 @@
     width: 100%;
   }
 
-  .section-desktop-horizontal-type .section__element {
+  .section--featured .section__element {
     width: 100%;
   }
 
