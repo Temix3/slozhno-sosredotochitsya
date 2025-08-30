@@ -1,6 +1,6 @@
 .page.theme_dark {
   --accentColor: #ff0070;
-  --accentColorOpaque: rgba(255, 0, 112, 0.4);
+  --accent-color-opacity: rgba(255, 0, 112, 0.4);
   --backgroundColor: #000028;
   --titleColor: #db00ff;
   --subtitleColor: #000028;
